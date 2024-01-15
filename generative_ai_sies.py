@@ -61,7 +61,16 @@ def generate_text(seed_text, model, max_len, num_chars):
     return generated_text
 
 # Generate text
-seed_text = "Your input text goes here. "
-generated_text = generate_text(seed_text, model, max_len, num_chars=200)
-print(generated_text)
+def generate_text(seed_text, model, max_len, num_chars):
+  input_seq = [char_to_int[char] for char in seed_text[-max_len:]]
+  if len(input_seq) != max_len:
+    input_seq = np.pad(input_seq, (0, max_len - len(input_seq)), 'constant')
+  input_seq = np.array(input_seq).reshape(1, max_len)
+  for _ in range(num_chars):
+    predicted_char_index = np.argmax(model.predict(input_seq, verbose=0))
+    predicted_char = int_to_char[predicted_char_index]
+    seed_text += predicted_char
+  return seed_text
+
+print(generate_text)
 
