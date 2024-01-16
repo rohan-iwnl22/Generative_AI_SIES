@@ -1,0 +1,84 @@
+Labels,Data
+Learning Core Web Technologies,The first step is to learn the underlying core technologies that make up the world wide web and its contents. It includes:
+,"I.Core Web Languages i.e. HTML, CSS and JS"
+
+,"II.Protocols like TCP/IP, HTTP/HTTPS, FTP, SMTP etc."
+
+,"III.Basics of Web Semantics, Accessibility, and Usability"
+Learn about types of Web Applications,"Learn what types of applications are suitable for your use case, or if you are a student, understand the most commonly deployed types of applications on the web like:"
+
+,I.Static HTML pages:	Web pages that have fixed content and display the same information to every visitor without any real-time interaction or updates.
+
+,"II.Dynamic HTML Pages:	Web pages that can change content dynamically, often using JavaScript and other libraries, providing interactive and real-time user experiences."
+
+,"III.Server-Side Apps: Applications that run on the server and dynamically generate content, typically using languages like PHP, Python, or Java, which is sent to the client’s browser."
+
+,"IV.Single Page Apps: Web applications that load a single HTML page and dynamically update content as the user interacts with the app, offering a smoother user experience."
+
+,"V.Progressive Web Apps: Web applications that provide a native-app-like experience on the web, with features like offline access, push notifications, and fast loading times."
+
+,"VI.Hybrid Apps:Hybrid Apps: Mobile applications built using web technologies that can run both on web browsers and as native apps on various mobile platforms, offering a blend of web and native functionalities."
+Building Tool Stacks for Web,"Since the web is a decentralized platform, it offers numerous ways to do the same thing, with many libraries, frameworks, and other assistive technologies available to ease any complex task. "
+,"A web developer requires enough knowledge to be able to plan tool stacks that can be used to tackle the challenge at hand appropriately. For example, some popular tools are used for various web dev tasks:"
+,"I.Programming Languages: HTML, CSS, and JavaScript are foundational."
+
+,"II.Frameworks and Libraries:React, Angular, Vue.js, etc., help build dynamic, responsive designs."
+
+,III.CSS Pre-processors: Tools like Sass and Less make styling more maintainable.
+
+,"IV.Package Managers: NPM, PIP or Yarn for managing libraries and dependencies."
+
+,"V.Build Tools: Webpack, Gulp, or Grunt for automating tasks and optimizing code."
+
+,"VI.Testing Tools:Jest, Mocha, and Jasmine."
+
+,VII.Developer Tools: Browsers’ built-in developer tools for debugging and performance tuning.
+
+,Back-End Development
+
+,"I.Programming Languages: Java, Python, PHP, Ruby, and more."
+
+,"II.Frameworks: Spring, Django, Express.js for rapid development."
+
+,III.Database Solutions: SQL databases like MySQL or PostgreSQL; NoSQL databases like MongoDB.
+
+,"IV.Web Servers: Nginx, Apache for handling HTTP requests and managing static content."
+
+,"V.Authentication Tools: OAuth, JWT for security and user authentication."
+
+,VI.API Tools: Tools for creating and testing RESTful or GraphQL APIs.
+Testing,Thorough testing ensures that the code runs smoothly and meets quality standards
+,"I.Unit Testing: Using frameworks like Jest, Mocha, or Jasmine to test individual components."
+
+,II.Integration Testing	:	Running locally or on BrowserStack Live to test interactions between different application parts.
+
+,"III.End-to-End Testing: Selenium, Cypress, BrowserStack Automate and Percy for simulating user behavior and testing the whole flow."
+
+,"IV.Responsiveness Testing: Testing adaptability across various devices, browsers, and user conditions using tools like BrowserStack   Live, and Responsive."
+
+,"V.Accessibility Testing:Testing for compatibility with screen readers, web crawlers, and other assistive modes."
+
+,VI.Performance Testing: Tools like BrowserStack App Performance to test the application’s performance under load.
+Deployment,includes everything required to get the application live online.
+
+,I.Version Control: Learn Git to manage code versions and contributions across branches.
+
+,II.Containerization: Docker to package the application with all its dependencies.
+
+,III.Orchestration Tools: Kubernetes for managing containerized applications.
+
+,"IV.CI/CD: Jenkins, GitLab CI, Travis CI for automating the build, test, and deploy process."
+
+,"V.Cloud Providers: AWS, Azure, and Google Cloud to host the application."
+
+,VI.Monitoring and Analytics: Tools like Prometheus and Google Analytics for tracking performance and user engagement.
+Closing Notes,A great portfolio is the best way to ensure your skills and aspirations are properly communicated to the hiring professionals. Here is how to get started:
+,I.Create personal or freelance projects to showcase your skills.
+
+,II.Collaborate and contribute to exciting projects on GitHub.
+
+,"III.Create a decent Resume/CV, or even better, an online webpage as a dynamic profile."
+
+,"IV.If you live in an area with companies, you can try networking and attending meetups, conferences, and workshops. "
+
+,"V.For online applications, tailor your resume and apply for positions based on your preferred style, like job portals, freelance projects, research-based projects etc."
