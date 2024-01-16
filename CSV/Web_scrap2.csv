@@ -1,0 +1,49 @@
+Labels,Data
+Website and Web Servers,"The basic thing that you must know before starting to learn about web development is about websites and web servers. These are the basic fundamentals on which the entire system works, hence, you must have a full-fledged knowledge of them. Both websites and web servers play a significant role in web development as the whole of the web application relies on them."
+,A website is a collection of web pages that are identified by a common domain name and published on a server. A simple web page is a page that users can view and is built using languages like HTML and CSS. A server is a system that stores files and software. The server connects the system to the internet and eases the data interchange with other devices
+
+"HTML, CSS, and JavaScript",HTML (HyperText Markup Language) is the basic building block with which you can create a web page. You can start your web development career by beginning with HTML. You need to have a basic understanding of how HTML works. Learn about its elements and work on its implementation part by building some exciting web pages.
+,You can only learn any language by practicing it day by day. Try working on different projects and move from basics to advanced level. You can work on IDEs or also use Notepad to edit code and save the file with the .html extension. Just run the file and see how those beautiful codes turn into a web page.
+,CSS (Cascading Styling Sheet) comes with HTML to make a web page look attractive and engaging. Have a deep understanding of CSS to make your webpage look appealing to the users. You can upscale your learning in CSS by adding more and more elements to your projects one by one. Try working on HTML and CSS projects to build beautiful web pages.
+,"JavaScript is the most demanding programming language and is currently preferred by more than 74% of the developer community. After gaining a deep knowledge of HTML and CSS, JavaScript is the next programming language with which you can build dynamic, interactive, and user-friendly web applications."
+,"Begin with implementing small projects (such as a calculator, to-do list, etc.) using HTML, CSS, and JavaScript, and later on move on to the advanced projects when you gain a deep understanding of JavaScript."
+
+FrontEnd Development,"The next skill you must have is front-end development. Front-end development deals with the development of the user interface, which users view and can access. It is the front side of the web application which has to be appealing and interactive for the user. After understanding the basic programming languages like HTML, CSS, and JavaScript, you need to learn on how to optimize the front page of the web application."
+,"Read about DOM (Document Object Model) manipulation because that’s where you can modify the changes in the code for the user interface. You can learn about the navigation layouts, elements alignment, and all sorts of things that could make your front end look catchy. Front-end development is a part of web development, hence, master the Top 10 Front-End Developer Skills You Should Know."
+
+Responsiveness,"Responsiveness is a design approach that enables the automatic adaptation of the web application to the screen. Make sure to build your website in such as manner that it fits all screen sizes. Your website should be responsive in nature, i.e., should fit, on desktops, mobiles, tablets, etc."
+,"The user can view the web application on any device and if the web application is only made for desktop, not for mobile, your web application is of no use. Responsiveness is a great factor to look after while building a web application, hence, you must build a responsive web application."
+
+BackEnd Development,Back-end development is the most important skill you must have. It is the backbone of web development. The entire web application functions through it. Back-end development is the development of a system through which the communication between the front end and the database occurs.
+,"You need to have a strong foundation on how back-end development functions. Start from the basic implementation of building a back-end for a small project, later you can update it with new modifications and build a large project. Thus, by practicing you can also learn about its working which will later help you to work with enterprise applications. Enrich your knowledge with the Top 7 Back-End Developer Skills You Should Know"
+
+Frameworks,The next step which you can follow is reading about frameworks. The framework is a collection of tools used during web development that helps developers build web applications quickly and easily. There are varieties of frameworks used for front-end as well as back-end development. Frameworks just help you to build software efficiently.
+,Some of the most preferred front-end frameworks are:
+
+,React
+,Angular
+,Vue
+
+,Some of the most preferred back-end frameworks are:
+
+,Node
+,ExpressJS
+
+,Note: Every programming language has its own framework like
+
+,Django for Python
+,Spring for Java
+,Laravel for PHP
+,many others
+
+Database Management System,"To have a full understanding of how to deal with data, you must have a good grip on the database management system for software developers. DBMS plays a major role in web development. While building a web app, you need to understand the flow of data and how to manage it since it has a large amount of data sets to function."
+,"Have an understanding of DBMS and work with it while working on web apps. Read the documentaries on databases, and understand the basic concepts and their working. Try to implement the database in the web app you’re working on."
+
+Version Control System,Version Control System or VCS is software that tracks control of the modifications made in your code while building the web app. Git is one popular VCS that tracks and records the changes made. Developers rely on VCS since you can bring changes in the code without affecting the source code.
+,"It updates the software with new features making it to a newer version and you can also undo the changes to come back to the last version. Since you can play with the versions by following the undo and redo commands, it is called a version control system."
+
+Deployments,Deployment is the act of pushing or moving your web app into a deployed state. It is the process of making your software/web apps available to users widely. Deployment is a major step you need to know if you want to publish your website on the internet for local users. It is like bringing life to your web application
+
+Work on Projects and Resume,"After you’re done with all the necessary skills required to become a web developer, now is the time when you can evaluate yourself by building some real-life projects. Start with working on some basic projects and then move to advanced-level projects. By working on implementing projects, you are moving towards becoming a successful web developer."
+,"Now that you’ve become a web developer, it’s time to update your resume with the skills you’ve learned and the projects you build. Build an ATS-friendly resume which is the most demanding one in the current IT industry. A perfect resume calls for a perfect job. Hence, this can increase the chance of clearing tech interviews and getting placed in MNCs."
+,"Learn from our Full Stack Development Bootcamp where you’ll be taught in your native language by mentors from top product-based companies, which contains real-world projects that you can work on to make your resume get shortlisted during hiring at big companies. When you complete this course, you get 100% job placement support with a high-paying job. "
