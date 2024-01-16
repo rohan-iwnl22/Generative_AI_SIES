@@ -1,0 +1,53 @@
+Front-End Technology Roadmap for Full-Stack Web Development:
+
+1.Basic Languages:
+
+    HTML: Defines website content structure.
+    CSS: Styles and layouts for websites.
+    SQL: Language for database management.
+
+2.Front-End Frameworks:
+Bootstrap: Open-source toolkit for responsive projects.
+AngularJS: Structural framework for dynamic web apps.
+ReactJS: Library for building user interfaces in single-page applications.
+VueJS: Compact and high-performance JavaScript framework.
+
+3.JavaScript:
+
+Just-in-time compiled language for dynamic website features.
+Widely used in both front-end and back-end development.
+
+4.TypeScript:
+Developed by Microsoft for type checking in large applications.
+Used in conjunction with JavaScript.
+
+5.Back-End Technology Roadmap:
+Express.js: Web application framework for Node.js.
+NodeJS: Cross-platform JavaScript runtime environment.
+Django: High-level Python web framework with a clean design.
+Ruby on Rails: Server-side web application framework based on Ruby.
+
+6.Database Systems:
+Relational (MySQL, SQLite, Postgres): Structured data storage.
+NoSQL (MongoDB, Cassandra, Apache storm, Sphinx): Non-relational databases.
+NewSQL (VoltDB, MemSQL): Relational databases using memory.
+
+7.Additional Skills:
+Git: Distributed version control system for tracking code changes.
+Machine Learning: Incorporation of ML into web development.
+SSH: Secure shell protocol for secure network service operation.
+HTTP/HTTPS: Protocols defining web message transmission.
+Linux Command-Line Basics: Understanding Linux for efficient backend organization.
+Data Structures and Algorithms: Fundamental concepts for efficient problem-solving.
+.Net and ASP.Net Framework: Building web and server-based applications.
+Character Encoding: Essential for developing global applications.
+
+
+Recommended Learning Steps:
+1.Master basic languages (HTML, CSS, SQL).
+2.Learn front-end frameworks (Bootstrap, AngularJS, ReactJS, VueJS).
+3.Explore JavaScript and TypeScript.
+4.Understand back-end technologies (Express.js, NodeJS, Django, Ruby on Rails).
+5.Familiarize with various database systems.
+6.Acquire additional skills (Git, Machine Learning, SSH, etc.).
+7.Enhance knowledge in web protocols, Linux, and global application development.
