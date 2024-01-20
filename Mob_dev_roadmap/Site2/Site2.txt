@@ -1,0 +1,70 @@
+Android Programming Languages
+
+All Android applications must be written using Kotlin, Java, and/or C/C++. Kotlin and Java are the primary languages developers use to build Android applications, while C++ is used to write performance-oriented or hardware-based features that use the Java Native Interface (JNI)  to call native functions. 
+
+Java
+
+When Google revealed the first version of their Android OS over a decade ago, they adopted Java as the main language for Android application development.
+Java is easy to learn and it works well on the Dalvik virtual machine, which was inspired by Java Virtual Machine (JVM), making it portable for almost any device and operating system. 
+
+Kotlin
+
+Kotlin was born from JetBrains. It was initially designed for the JVM environment and combines functional and object-oriented programming.
+
+Interoperability: Kotlin is 100% interoperable with Java and supports great interoperability with JVM environments.
+Safety:  Android apps that contain Kotlin code are 20% less likely to crash according to the Android docs.
+Asynchronicity: Kotlin’s use of coroutines allows it to provide asynchronous (non-blocking) programming support. 
+
+In addition to the points above, Google announced their Kotlin-first approach to Android development at Google I/O 2019. Since the announcement, the number of applications built with Kotlin has increased exponentially. 
+So if you were to start learning Android development now, Kotlin would be a great choice.
+
+Android Operating Systems
+The foundation of the Android platform is the Linux kernel, which allows Android to take advantage of certain security features. The Linux kernel has been used in millions of security-sensitive systems since its creation in 1991, so it has a long history of consistently being researched, tested, and improved upon by thousands of developers. 
+According to the Android docs, Android utilizes several key Linux security features including:
+
+A user-based permissions model
+Process isolation
+An extensible mechanism for secure inter-process communication (IPC)
+The ability to remove unnecessary and/or insecure parts of the kernel
+
+Another key feature of Linux is its multiuser operating system, which allows multiple users to access independent system resources such as memory, CPU resources, RAM, and applications. By isolating user resources from one another, they can be protected from each other.
+The Android platform takes advantage of the Linux multiuser system with its own Application Sandbox, which isolates app resources from each other and protects apps and the system from malicious apps. For more details, check out Application Sandbox.
+Android Platform Architecture
+
+Android platform architecture consists of six layers built on top of the Linux Kernel. (Note: The actual architecture is stacked in the reverse order of the figure above.)
+Let’s discuss each layer: 
+The Linux Kernel
+The Linux Kernel is the core of the Android platform architecture. It manages low-level memory and all the available hardware drivers – such as the WiFi driver, camera driver, audio driver, bluetooth driver, display driver, and all peripheral drivers – via its Low Memory Killer Daemon.
+Hardware Abstraction Layer (HAL)
+The hardware abstraction layer (HAL) bridges hardware capabilities to the higher-level Java API Framework by defining standard interfaces, allowing you to implement the low-level functionalities without modifying the higher-level systems. 
+HAL implementations are packaged into modules, which are stored as a shared library (.so file) and loaded by the Android system at the appropriate time. 
+Android Runtime
+Android Runtime (ART) is an application Runtime System used by Android OS and one of the core features in the Android ecosystem. ART was invented to replace the Dalvik virtual machine for devices running Android version 5.0 (L​ollipop) or higher. 
+The main role of ART is to execute the Dalvik Executable format (DEX) by translating DEX bytecode into machine code that your system can understand.
+ART architecture was written to run multiple virtual machines on low-memory devices. Some key features are directly related to the speed of running the Android applications. Key features of ART include:
+
+Ahead-of-time (AOT) and just-in-time (JIT) compilation
+Enhanced garbage collection (GC)
+Converting an app package's DEX files to condensed machine code (on Android 9 (API level 28+))
+Better debugging support, including detailed diagnostics and crash reporting, the ability to set multiple watchpoints, and more
+
+For more details, check out Android Runtime (ART) and Dalvik.
+Native C/C++ Libraries
+The Android platform includes a pair of Native APIs, which work on top of the Native Development Kit (NDK). 
+The Native APIs let you manage native activities and access physical device components such as cameras, sensors, graphics, and audio. They are also exposed to the higher-level layers, so you can control the components of the physical device on the Java API framework.
+Java API Framework (Application Framework)
+The Java API framework is a collection of Android libraries written in Java and Kotlin that provide the entire feature-set of the Android OS. Android APIs include an extensible View System, reusable components, and system managers which are used to build your Android applications by simplifying the reuse of interfaces. 
+One of the more powerful APIs in the Java API framework is Android Jetpack, which is pushed by Google. Jetpack accelerates development speed by reducing boilerplate code so that developers can focus on the code they care about. 
+Also, it provides solutions like Lifecycle, UI toolkit, Navigation, Security, Caching, Scheduler, Dependency Injection, and a lot more. You’ll cover this deeply in future posts.
+System Apps
+System apps are pre-installed apps such as email, SNS messaging, calendars, internet browsing, contacts, and more, which are located in the system partition with your ROM. The configuration of the System Apps may vary depending on the mobile phone manufacturer. For more details, you can check out System Apps.
+In this section, you covered the overall architecture of the Android platform. For more details, check out Android Platform Architecture.
+App Manifest
+
+Every Android project must have an AndroidManifest.xml file which describes essential information about the application such as the package name, entry points, components, permissions, and metadata.
+Package Name and Application ID
+Every Android project must have a package attribute, which represents your application’s universally unique application ID in the  AndroidManifest.xml file. The manifest file must be located in your /src/main folder.
+xml<manifest xmlns:android=""http://schemas.android.com/apk/res/android""
+    xmlns:tools=""http://schemas.android.com/tools""
+    package=""io.getstream.chat.android.ui"">
+    …
